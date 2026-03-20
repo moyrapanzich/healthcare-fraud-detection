@@ -6,13 +6,13 @@ El objetivo del proyecto es desarrollar un modelo de Machine Learning capaz de i
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Detectar proveedores con alta probabilidad de fraude mediante modelos de clasificación supervisada, permitiendo mejorar la eficiencia de los procesos de auditoría médica.
 
 ---
 
-## ⚙️ Metodología
+## Metodología
 
 El proyecto se desarrolló siguiendo las etapas de la metodología CRISP-DM:
 
@@ -24,7 +24,7 @@ El proyecto se desarrolló siguiendo las etapas de la metodología CRISP-DM:
 
 ---
 
-## 🤖 Modelos utilizados
+## Modelos utilizados
 
 Se evaluaron distintos modelos de Machine Learning:
 
@@ -34,13 +34,13 @@ Se evaluaron distintos modelos de Machine Learning:
 
 ---
 
-## 📊 Resultados
+## Resultados
 
 El modelo Random Forest obtuvo el mejor desempeño, logrando un mejor equilibrio entre precisión y recall, lo que permitió mejorar la detección de proveedores potencialmente fraudulentos.
 
 ---
 
-## 💡 Impacto en el negocio
+## Impacto en el negocio
 
 La implementación de este modelo permitiría:
 
@@ -51,7 +51,7 @@ La implementación de este modelo permitiría:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python  
 - Pandas  
@@ -60,6 +60,6 @@ La implementación de este modelo permitiría:
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 Moyra Blanco Panzich Vrdoljak
