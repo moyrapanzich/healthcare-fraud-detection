@@ -1,8 +1,6 @@
 # Detección de Fraude en Facturación Médica – Proyecto Final Integrador
 
 
-## Descripción del proyecto
-
 Este proyecto tiene como objetivo detectar proveedores médicos potencialmente fraudulentos a partir del análisis de datos de reclamos de salud.
 
 El trabajo se basa en la integración y análisis de múltiples fuentes de datos, incluyendo información de pacientes, proveedores y prestaciones médicas, con el fin de identificar patrones de comportamiento atípicos que puedan estar asociados a fraude.
