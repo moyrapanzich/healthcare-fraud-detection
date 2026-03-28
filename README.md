@@ -60,20 +60,31 @@ pip install pandas numpy scikit-learn matplotlib
 
 El dataset utilizado en este proyecto corresponde a "Healthcare Provider Fraud Detection", disponible en Kaggle.
 
-Para utilizar el notebook:
+Para el desarrollo del modelo se utilizaron exclusivamente los archivos de entrenamiento (Train), descartando los archivos de test.
 
-1. Descargar los archivos del dataset desde Kaggle.
-2. Colocar los archivos CSV en la carpeta `data/` del repositorio.
+En particular, se emplearon los siguientes archivos:
+
+- Train_Beneficiarydata-1542865627584.csv  
+- Train_Inpatientdata-1542865627584.csv  
+- Train_Outpatientdata-1542865627584.csv  
+- Train-1542865627584.csv  
+
+Los archivos correspondientes a "Test" no fueron utilizados en este análisis.
+
+### Instrucciones
+
+1. Descargar el dataset desde Kaggle.  
+2. Ubicar los archivos mencionados en la carpeta `data/` del repositorio.  
 
 ### Uso en Google Colab
 
 Si se ejecuta el notebook en Google Colab, es necesario subir manualmente los archivos CSV:
 
-- Ir al panel lateral izquierdo (ícono de carpeta)
-- Seleccionar "Subir archivos"
-- Cargar los CSV del dataset
+- Ir al panel lateral izquierdo (ícono de carpeta)  
+- Seleccionar "Subir archivos"  
+- Cargar los archivos CSV utilizados  
 
-Los archivos deben quedar en la ruta raíz (`/content/`) para que el notebook pueda acceder correctamente a ellos.
+Los archivos deben quedar en la ruta raíz (`/content/`) para que el notebook pueda acceder correctamente.
 ---
 
 ## Ejecución
