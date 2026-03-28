@@ -1,8 +1,8 @@
 # Detección de Fraude en Facturación Médica – Proyecto Final Integrador
 
-Este repositorio contiene el código y los recursos correspondientes al Proyecto Final Integrador del Diplomado en Ciencia de Datos y Análisis Avanzado.
+Este repositorio reúne el desarrollo del Proyecto Final Integrador del Diplomado en Ciencia de Datos y Análisis Avanzado.
 
-El objetivo del proyecto es identificar proveedores médicos potencialmente fraudulentos a partir del análisis de datos de reclamos, utilizando técnicas de Machine Learning y siguiendo la metodología CRISP-DM.
+El trabajo se centra en el análisis de datos de facturación médica con el objetivo de identificar proveedores que presentan comportamientos atípicos, potencialmente asociados a fraude. A partir de la integración de información de pacientes, prestaciones y proveedores, se desarrolló un enfoque de Machine Learning orientado a detectar estos patrones y aportar una herramienta de apoyo para procesos de auditoría.
 
 ---
 
