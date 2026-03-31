@@ -22,7 +22,7 @@ El objetivo del proyecto es identificar proveedores médicos con comportamientos
 
 ---
 
-## Instalación
+## Instalación (ejecución local)
 
 Clonar el repositorio o descargar los archivos.
 
@@ -49,6 +49,23 @@ Instalar dependencias:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
 ```
+
+---
+
+## Uso en Google Colab
+
+El proyecto también puede ejecutarse en Google Colab sin necesidad de instalación local.
+
+Pasos:
+
+- Abrir el notebook `.ipynb` en Google Colab  
+- Subir manualmente los archivos CSV del dataset  
+- Ubicarlos en `/content/`  
+- Ejecutar las celdas en orden  
+
+No se requiere instalación de librerías ya que Colab incluye las dependencias necesarias por defecto.
+
+Este proyecto puede ejecutarse tanto en entorno local como en Google Colab.
 
 ---
 
