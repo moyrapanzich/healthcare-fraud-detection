@@ -75,12 +75,16 @@ El dataset utilizado corresponde a:
 Healthcare Provider Fraud Detection – Kaggle  
 https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis
 
-Se utilizaron únicamente los archivos de entrenamiento:
+Para el desarrollo del modelo se utilizaron exclusivamente los archivos de entrenamiento (Train), descartando los archivos de test.
 
-- Train_Beneficiarydata.csv  
-- Train_Inpatientdata.csv  
-- Train_Outpatientdata.csv  
-- Train.csv  
+Archivos utilizados:
+
+- Train_Beneficiarydata-1542865627584.csv  
+- Train_Inpatientdata-1542865627584.csv  
+- Train_Outpatientdata-1542865627584.csv  
+- Train-1542865627584.csv  
+
+Los archivos deben ubicarse en la carpeta `content/` (o en `/content/` si se utiliza Google Colab).  
 
 ---
 
