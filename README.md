@@ -65,7 +65,6 @@ Pasos:
 
 No se requiere instalación de librerías ya que Colab incluye las dependencias necesarias por defecto.
 
-Este proyecto puede ejecutarse tanto en entorno local como en Google Colab.
 
 ---
 
