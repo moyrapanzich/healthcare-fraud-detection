@@ -1,6 +1,6 @@
 # Healthcare Fraud Detection using Machine Learning
 
-Repositorio correspondiente al Proyecto Final Integrador del Diplomado en Ciencia de Datos y Análisis Avanzado.
+Repositorio correspondiente al Proyecto Final Integrador de la Diplomatura en Ciencia de Datos y Análisis Avanzado.
 
 El objetivo del proyecto es identificar proveedores médicos con comportamientos atípicos potencialmente asociados a fraude, a partir del análisis de datos de facturación. Para ello, se integraron múltiples fuentes de información y se desarrolló un modelo de Machine Learning orientado a detectar patrones relevantes y asistir en procesos de auditoría.
 
