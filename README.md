@@ -1,126 +1,117 @@
-# Detección de Fraude en Facturación Médica – Proyecto Final Integrador
+# Healthcare Fraud Detection using Machine Learning
 
-Este repositorio reúne el desarrollo del Proyecto Final Integrador del Diplomado en Ciencia de Datos y Análisis Avanzado.
+Repositorio correspondiente al Proyecto Final Integrador del Diplomado en Ciencia de Datos y Análisis Avanzado.
 
-El trabajo se centra en el análisis de datos de facturación médica con el objetivo de identificar proveedores que presentan comportamientos atípicos, potencialmente asociados a fraude. A partir de la integración de información de pacientes, prestaciones y proveedores, se desarrolló un enfoque de Machine Learning orientado a detectar estos patrones y aportar una herramienta de apoyo para procesos de auditoría.
+El objetivo del proyecto es identificar proveedores médicos con comportamientos atípicos potencialmente asociados a fraude, a partir del análisis de datos de facturación. Para ello, se integraron múltiples fuentes de información y se desarrolló un modelo de Machine Learning orientado a detectar patrones relevantes y asistir en procesos de auditoría.
 
 ---
 
 ## Contenido
 
-- fraud_detection.ipynb: Notebook principal que incluye carga de datos, limpieza, integración, generación de variables, modelado y evaluación.
-
-- data/: Carpeta donde deben colocarse los archivos del dataset descargados desde Kaggle.
-
-- README.md: Documento descriptivo del proyecto.
+- Healthcare_Fraud_Detection_Project.ipynb: Notebook principal con el desarrollo completo del proyecto (EDA, feature engineering, modelado y evaluación).
+- data/: Carpeta donde deben ubicarse los archivos del dataset descargados desde Kaggle.
+- README.md: Documentación del proyecto.
 
 ---
 
 ## Requisitos
 
 - Python 3.10 o superior  
-- pandas  
-- numpy  
-- scikit-learn  
-- matplotlib  
+- Librerías: `pandas`, `numpy`, `scikit-learn`, `matplotlib`  
+- Opcional: `xgboost`, `shap`
 
 ---
 
 ## Instalación
 
-Clonar o descargar el repositorio.
+Clonar el repositorio o descargar los archivos.
 
 Crear un entorno virtual (opcional):
 
-```
+```bash
 python -m venv env
 ```
 
 Activar entorno:
 
-En Windows:
-```
+Windows:
+```bash
 env\Scripts\activate
 ```
 
-En Mac/Linux:
-```
+Mac/Linux:
+```bash
 source env/bin/activate
 ```
 
 Instalar dependencias:
 
-```
+```bash
 pip install pandas numpy scikit-learn matplotlib
 ```
 
 ---
 
-## Descarga de datos
+## Datos
 
-El dataset utilizado en este proyecto corresponde a "Healthcare Provider Fraud Detection", disponible en Kaggle.
+El dataset utilizado corresponde a:
 
-Para el desarrollo del modelo se utilizaron exclusivamente los archivos de entrenamiento (Train), descartando los archivos de test.
+Healthcare Provider Fraud Detection – Kaggle  
+https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis
 
-En particular, se emplearon los siguientes archivos:
+Se utilizaron únicamente los archivos de entrenamiento:
 
-- Train_Beneficiarydata-1542865627584.csv  
-- Train_Inpatientdata-1542865627584.csv  
-- Train_Outpatientdata-1542865627584.csv  
-- Train-1542865627584.csv  
+- Train_Beneficiarydata.csv  
+- Train_Inpatientdata.csv  
+- Train_Outpatientdata.csv  
+- Train.csv  
 
-Los archivos correspondientes a "Test" no fueron utilizados en este análisis.
-
-### Instrucciones
-
-1. Descargar el dataset desde Kaggle.  
-2. Ubicar los archivos mencionados en la carpeta `data/` del repositorio.  
-
-### Uso en Google Colab
-
-Si se ejecuta el notebook en Google Colab, es necesario subir manualmente los archivos CSV:
-
-- Ir al panel lateral izquierdo (ícono de carpeta)  
-- Seleccionar "Subir archivos"  
-- Cargar los archivos CSV utilizados  
-
-Los archivos deben quedar en la ruta raíz (`/content/`) para que el notebook pueda acceder correctamente.
 ---
 
-## Ejecución
+## Metodología
 
-Abrir el notebook:
+Se utilizó la metodología CRISP-DM, estructurando el proyecto en las siguientes etapas:
 
-```
-jupyter notebook fraud_detection.ipynb
-```
+- comprensión del problema  
+- análisis de datos (EDA)  
+- preparación de datos  
+- modelado  
+- evaluación e interpretación  
 
-Ejecutar las celdas en orden:
+---
 
-- carga de datos  
-- integración de tablas  
-- limpieza  
-- feature engineering  
-- entrenamiento de modelos  
-- evaluación  
+## Análisis Exploratorio (EDA)
+
+Se identificó un fuerte desbalance de clases, donde los casos de fraude representan aproximadamente el 9% del total.
+
+También se detectaron patrones relevantes en variables económicas y de utilización de servicios, lo que permitió orientar el modelado y la selección de variables.
+
+---
+
+## Preparación de datos
+
+- Integración de múltiples fuentes  
+- Limpieza de datos  
+- Tratamiento de valores faltantes  
+- Generación de variables agregadas a nivel proveedor  
 
 ---
 
 ## Modelado
 
-Se evaluaron los siguientes modelos:
+Se evaluaron los siguientes algoritmos:
 
 - Logistic Regression  
 - Random Forest  
 - Gradient Boosting  
 
-Dado el desbalance de clases, se priorizó la métrica recall.
+Dado el desbalance de clases, se priorizó el uso de métricas como recall y F1-score.
 
 ---
 
 ## Resultados
 
-El modelo Random Forest presentó el mejor desempeño general.
+El modelo Random Forest presentó el mejor desempeño, destacándose en métricas como recall y F1-score, lo que indica una mayor capacidad para detectar correctamente los casos de fraude y reducir falsos negativos.
 
 ---
 
@@ -129,14 +120,36 @@ El modelo Random Forest presentó el mejor desempeño general.
 El modelo puede utilizarse para:
 
 - priorizar auditorías médicas  
-- optimizar recursos  
-- reducir pérdidas económicas  
+- optimizar la asignación de recursos  
+- reducir pérdidas económicas asociadas a fraude  
 
 ---
 
-## Fuente de datos
+## Ejecución
 
-Healthcare Provider Fraud Detection – Kaggle
+Abrir el notebook:
+
+```bash
+jupyter notebook Healthcare_Fraud_Detection_Project.ipynb
+```
+
+Ejecutar las celdas en orden:
+
+1. carga de datos  
+2. integración  
+3. limpieza  
+4. feature engineering  
+5. entrenamiento  
+6. evaluación  
+
+---
+
+## Uso en Google Colab
+
+Si se ejecuta en Google Colab:
+
+- Subir manualmente los archivos CSV  
+- Ubicarlos en /content/  
 
 ---
 
