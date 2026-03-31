@@ -9,7 +9,7 @@ El objetivo del proyecto es identificar proveedores médicos con comportamientos
 ## Contenido
 
 - Healthcare_Fraud_Detection_Project.ipynb: Notebook principal con el desarrollo completo del proyecto (EDA, feature engineering, modelado y evaluación).
-- data/: Carpeta donde deben ubicarse los archivos del dataset descargados desde Kaggle.
+- content/: Carpeta donde deben ubicarse los archivos del dataset descargados desde Kaggle.
 - README.md: Documentación del proyecto.
 
 ---
