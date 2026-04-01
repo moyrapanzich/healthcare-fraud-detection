@@ -170,15 +170,6 @@ Al finalizar, se obtienen las métricas de desempeño y los gráficos que permit
 
 ---
 
-## Uso en Google Colab
-
-Si se ejecuta en Google Colab:
-
-- Subir manualmente los archivos CSV  
-- Ubicarlos en /content/  
-
----
-
 ## Autora
 
 Moyra Blanco Panzich Vrdoljak
