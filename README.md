@@ -131,9 +131,9 @@ Dado el desbalance de clases, se priorizó el uso de métricas como recall y F1-
 
 ## Resultados
 
-El modelo Logistic Regression presentó el mejor desempeño bajo el criterio de selección adoptado, priorizando métricas como recall y F1-score, lo que indica una mayor capacidad para detectar correctamente los casos de fraude y reducir falsos negativos.
+El modelo Logistic Regression presentó el mejor desempeño bajo el criterio de selección adoptado, priorizando métricas como recall y F1-score.
 
-Asimismo, se utilizó Random Forest como apoyo interpretativo para analizar la importancia de variables y comprender los factores más relevantes asociados al fraude.
+Asimismo, se utilizó Random Forest como apoyo interpretativo para analizar la importancia de variables.
 
 ---
 
