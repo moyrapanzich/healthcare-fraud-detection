@@ -155,7 +155,18 @@ Abrir el notebook:
 jupyter notebook Healthcare_Fraud_Detection_Project.ipynb
 ```
 
-Ejecutar todas las celdas en orden secuencial (de arriba hacia abajo) para reproducir el análisis completo del proyecto. 
+1. Ejecutar todas las celdas en orden secuencial (de arriba hacia abajo) para reproducir el análisis completo del proyecto.
+El notebook realiza los siguientes pasos:
+Importación de librerías y configuración
+Carga e integración de múltiples fuentes de datos
+Limpieza y preparación de datos
+Generación de variables (feature engineering) a nivel proveedor
+Definición y entrenamiento de modelos (Logistic Regression, Random Forest y Gradient Boosting)
+Evaluación de métricas (recall, F1-score, entre otras)
+Comparación de modelos y selección del modelo final
+Análisis de importancia de variables
+
+Al finalizar, se obtienen las métricas de desempeño y los gráficos que permiten interpretar los resultados del modelo.
 
 ---
 
