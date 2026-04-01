@@ -155,14 +155,7 @@ Abrir el notebook:
 jupyter notebook Healthcare_Fraud_Detection_Project.ipynb
 ```
 
-Ejecutar las celdas en orden:
-
-1. carga de datos  
-2. integración  
-3. limpieza  
-4. feature engineering  
-5. entrenamiento  
-6. evaluación  
+Ejecutar todas las celdas en orden secuencial (de arriba hacia abajo) para reproducir el análisis completo del proyecto. 
 
 ---
 
